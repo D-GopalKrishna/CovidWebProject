@@ -1,0 +1,38 @@
+
+
+#particles-js{
+  background-size: auto;
+
+}
+
+.earth
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 700px;
+    height: 550px;
+    background-image: url(https://relief.unboundmedicine.com/relief/repview?type=730-1649&name=2_2355044_Standard);
+    border-radius:50%;
+    background-size: cover;
+    box-shadow: -20px -20px 50px 2px rgb(90, 1, 1) inset, 0 0 20px 20px rgb(0, 0, 0);
+    animation: spin 35s linear alternate infinite;
+}
+
+body
+{
+    background-image: url(https://www.basw.co.uk/sites/default/files/styles/highlighted_tiny_x2/public/AdobeStock_320164385.jpeg?itok=RzOZAb0B&timestamp=1584114377);
+    background-size: cover;
+
+}
+
+
+@keyframes spin
+{
+    100%{
+        background-position:100%,40%;
+    }
+}
