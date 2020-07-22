@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loopdata</title>
+</head>
+<body>
+    <p>states || confirmed || recovered || deaths || active</p>
+    {% for i in range(37) %}
+        <p>{{ posts[0]['states1'][i] }} || {{ posts[0]['confirmed1'][i] }} || {{ posts[0]['recovered1'][i] }} || {{ posts[0]['deaths1'][i] }} || {{ posts[0]['active1'][i] }}</p>
+    {% endfor %}
+</body>
+</html>
